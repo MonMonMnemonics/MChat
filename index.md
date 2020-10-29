@@ -1,5 +1,5 @@
 Link to guides.
 
-* [Listener](https://monmonmnemonics.github.io/MChat/HTU_Listener/).
+* [Listener](https://monmonmnemonics.github.io/MChat/HTU_Listener).
 
-* [Translator](https://monmonmnemonics.github.io/MChat/HTU_Translator/).
+* [Translator](https://monmonmnemonics.github.io/MChat/HTU_Translator).
