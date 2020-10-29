@@ -1,2 +1,5 @@
 Link to guides.
-[Listener HTU](https://monmonmnemonics.github.io/MChat//HTU_Listener/HTU_Listener.md)
+
+* [Listener](https://monmonmnemonics.github.io/MChat//HTU_Listener/HTU_Listener.md)
+
+* [Translator](https://monmonmnemonics.github.io/MChat//HTU_Translator/HTU_Translator.md)
