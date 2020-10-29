@@ -1,25 +1,19 @@
-<body>
-    <br>
-    <span style="font-size: 2em; color: red;"> This Guide is based on v0.8.1, newer guide will be uploaded in the github soon to save hosting resource</span>
-    <h1>How To Use : Translator</h1>
+# How To Use : Translator
 
-    <div class="ToC">
-        <p>The translator side is a little bit complicated, but don't let it scare you.</p>
-        <ul>
-            <li><a href="HowToUse/Translator#Login">Login</a></li>
-            <li><a href="HowToUse/Translator#TLPanel">Translator Panel</a></li>
-            <li><a href="HowToUse/Translator#Profile">Profile and Preset</a></li>
-            <li><a href="HowToUse/Translator#EDPanel">Editor Panel</a></li>
-            <li><a href="HowToUse/Translator#ReserveRoom">Reserving Room</a></li>
-            <li><a href="HowToUse/Translator#Extras">Extra Panel</a></li>
-            <li><a href="HowToUse/Translator#ExportScript">Export Script</a></li>
-        </ul>
-    </div>
+The translator side is a little bit complicated, but don't let it scare you.
 
-    <hr><br>
+* [Login](#login).
+* [Translator Panel](#translator panel).
+* [Profile and Preset](#profile and preset).
+* [Editor Panel](#editor panel).
+* [Reserving Room](#reserving room).
+* [Extra Panel](#extra panel).
+* [Export Script](#export script).
 
-    <a class="AnchorLink" id="Login">Login</a><br>
-    <p>1. The translator section is only available in desktop client</p>
+## Login.
+1. The translator section is only available in desktop client
+
+![Login1](https://monmonmnemonics.github.io/MChat/HTU_Listener/Images/Login1.jpg)
 
     <img src="../assets/Image/HTUTranslator/Login1.jpg" width="20%" style="border: 5px solid black; min-width: 250px;"><br>
     <p>2. Search for the room that you want.</p>
@@ -145,5 +139,3 @@
     <p>5. Either export as .ass file compatible with Aegisub or to simple .srt file.<br>
        File will be saved in the "Saved_Archive" folder of the original folder.
     </p>
-
-</body>
