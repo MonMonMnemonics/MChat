@@ -19,9 +19,9 @@ The Listener's side is straight-forward and easy.
 ## Extras
 1. You can call an extra setting panel if you move your cursor to the upper area of the app window.
    Or tap if you're using mobile client.
-  <img src="../assets/Image/HTUlistener/ExtraPnl1.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
+  <img src="../assets/Image/HTUlistener/ExtraPnl1.jpg" width="40%" style="border: 5px solid black; min-width: 400px;">
 2. Extra panel contains a lot of extra features.
-  <img src="../assets/Image/HTUlistener/ExtraPnl2.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
+  <img src="../assets/Image/HTUlistener/ExtraPnl2.jpg" width="40%" style="border: 5px solid black; min-width: 400px;">
     
 - Back : Return back to room picker.
 - Font : Change the colour or the size of the font of the view window.
