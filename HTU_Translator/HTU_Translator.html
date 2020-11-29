@@ -14,7 +14,6 @@
             <li><a href="HTU_Translator.html#Login">Login</a></li>
             <li><a href="HTU_Translator.html#TLPanel">Translator Panel</a></li>
             <li><a href="HTU_Translator.html#Profile">Profile and Preset</a></li>
-            <li><a href="HTU_Translator.html#EDPanel">Editor Panel</a></li>
             <li><a href="HTU_Translator.html#ReserveRoom">Reserving Room</a></li>
             <li><a href="HTU_Translator.html#Extras">Extra Panel</a></li>
             <li><a href="HTU_Translator.html#ExportScript">Export Script</a></li>
@@ -50,10 +49,10 @@
         <ul>
             <li>Prefix : Automatically add fixed prefix.</li>
             <li>Suffix : Automatically add fixed suffix.</li>
-            <li>Colour Code : Pick colour for the colour code.</li>
+            <li>Colour Code : Pick colour for the colour of the text.</li>
             <li>Colour Toggle : Toggle to put in colour code.</li>
-            <li>Info Board : This is where you can put in extra info on the stream you're translating.</li>
-            <li>Editor Mode : Change to editor mode.</li>
+            <li>Outline : Pick colour for the custom outline colour.</li>
+            <li>Outline Toggle : Toggle to put in custom outline colour.</li>
         </ul>
     </div>
     <br>
@@ -62,6 +61,11 @@
     <img src="Images/TranslatorPnl2.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
     <p>2. Once your message is sent, the message input will be emptied and you can immediately write your next message</p>
     <img src="Images/TranslatorPnl3.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
+    <p>3. You can click an entry to call extra panel to quickly delete or edit an entry</p>
+    <img src="Images/TranslatorPnl4.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
+    <p>4. The edit panel will automatically load the setting of the entry, you can quickly change the text colour and outline from saved preset using the dropdown menu</p>
+    <img src="Images/TranslatorPnl5.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
+
     <hr><br>
 
     <a class="AnchorLink" id="Profile">Profile & Preset</a><br>
@@ -76,7 +80,8 @@
             <li>Shift Down : Shift the selected profile down in the list.</li>
             <li>Remove Profile : Delete the selected profile from the profile list.</li>
             <li>Manage Preset : Open the preset panel.</li>
-            <li>You can switch between profile using tab key</li>
+            <li>You can switch between profile using tab key or up and down arrow keys.</li>
+            <li>You can also jump to default profile using shift + tab.</li>
         </ul>
     </div>
     <br>
@@ -89,17 +94,6 @@
     <img src="Images/Profile2.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
     <p>To add/delete prefix, just pick the prefix then click "add to list" to add to the profile list or "delete" button to delete the selected prefix</p>
     <img src="Images/Profile3.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
-    <hr><br>
-
-    <a class="AnchorLink" id="EDPanel">Editor Panel</a><br>
-    <p>Editor Panel located in the bottom part of the window in editor mode</p>
-    <img src="Images/EditorPnl1.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
-    <p>1. To edit an entry, just click on the entry and you'll see *___* sign that shows which entry that you're editing</p>
-    <img src="Images/EditorPnl2.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
-    <p>2. Enter the new entry that you want to change to</p>
-    <img src="Images/EditorPnl3.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
-    <p>3. Click on "Send Button" or press enter twice on your keyboard</p>
-    <img src="Images/EditorPnl4.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
     <hr><br>
 
     <a class="AnchorLink" id="ReserveRoom">Reserving Room</a><br>
@@ -132,7 +126,9 @@
             <li>Always On Top (only available in windows client) : Set the window to always on top.<br>
                 If you're using Linux with GNOME graphic, you can also do the same by right clicking the window and click always on top.
             </li>
-            <li>Extra Info : Open extra panel that contains extra information that the translator might post.</li>
+            <li>Info Board : Open extra panel that contains extra information that the translator might post.</li>
+            <li>Password : Set password protection for the room so only certain listeners can login.</li>
+            <li>Message panel : Hide/Show the message panel.</li>
             <li>X : Close the app.</li>
         </ul>
     </div>
@@ -146,7 +142,9 @@
     <img src="Images/Export2.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
     <p>3. Pick session that you want to export to script file.</p>
     <img src="Images/Export3.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
-    <p>4. Click on the entry to set the start and the end point.</p>
+    <p>4. Click on the entry to set the start and the end point.<br>
+        The hidden check box will set whether listeners can open the archive or not.    
+    </p>
     <img src="Images/Export4.jpg" width="40%" style="border: 5px solid black; min-width: 400px;"><br>
     <p>5. Either export as .ass file compatible with Aegisub or to simple .srt file.<br>
        File will be saved in the "Saved_Archive" folder of the original folder.
