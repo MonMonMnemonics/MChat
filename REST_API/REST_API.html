@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="REST_API.css">
+</head>
+
+<body>
+    <br>
+    <h1>REST API</h1>
+
+    <div class="ToC">
+        <p>FOR INTERNAL USE, SO THE ENDPOINT IS NOT PUBLIC... AT LEAST FOR NOW</p>
+        <ul>
+            <li><a href="REST_API.html#ArchiveList">Get archive list</a></li>
+            <li><a href="REST_API.html#ArchiveDown">Get archived script</a></li>
+            <li><a href="REST_API.html#RoomList">Get room list</a></li>
+            <li><a href="REST_API.html#RoomStream">Stream to live session</a></li>
+        </ul>
+    </div>
+
+    <hr><br>
+
+    <a class="AnchorLink" id="ArchiveList">Get Archive List</a><br>
+    <p>HTTP request GET to http://[mimimimioon]/Archive/?room=[room]&link=[link]</p>
+    <p><ul>
+        <p>Query List</p>
+        <li>room => to search for particular room name</li>
+        <li>link => to search particular stream link (just use YT_[video ID] the YT_ will be automatically parsed to "https://www.youtube.com/watch?v=")</li>
+    </ul></p>
+    <p>Test command : curl -X GET http://[mimimimioon]/Archive/?room=MonMon%20TL</p>
+        
+    
+    
+    <br>
+
+    <hr><br>
+
+    <a class="AnchorLink" id="ArchiveDown">Get Archived Script</a><br>
+    <br>
+    
+    <hr><br>
+
+    <a class="AnchorLink" id="RoomList">Get Room List</a><br>
+    <p>HTTP request GET to http://[mimimimioon]/Room/?room=[room]&link=[link]</p>
+    <ul class="TOC">
+	    <li>room => to search particular room name</li>
+        <li>link => to search particular stream link (just use YT_[video ID] the YT_ will be automatically parsed to "https://www.youtube.com/watch?v=")</li>
+    </ul>
+    Test command : curl -X GET http://[mimimimioon]/Room/
+
+    <br>
+    
+    <hr><br>
+
+    <a class="AnchorLink" id="RoomStream">Live Stream</a><br>
+    <br>
+    
+    <hr><br>
+
+</body>
